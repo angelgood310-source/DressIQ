@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DressIQ | Luxury Fashion</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="topbar">
+    COMPLIMENTARY DELIVERY ON ORDERS ABOVE ₹2,999 ✦ MADE FOR YOUR MOMENT
+</div>
+
+<!-- NAVBAR -->
+<header class="header">
+    <div class="header-inner">
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <a href="#home" class="logo">
+            Dress<span>IQ</span>
+            <small>THE ART OF BEING YOU</small>
+        </a>
+
+        <nav id="mainNav">
+            <a href="#home">HOME</a>
+            <a href="#collections">COLLECTIONS</a>
+            <a href="#edit">NEW ARRIVALS</a>
+            <a href="#story">OUR STORY</a>
+        </nav>
+
+        <div class="header-icons">
+            <a href="#edit">⌕</a>
+            <a href="cart.html">♡</a>
+            <a href="cart.html">BAG</a>
+        </div>
+
+    </div>
+</header>
+
+<main>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">✦ THE NEW LANGUAGE OF STYLE</p>
+
+        <h1>
+            Elegance, in<br>
+            your <em>own</em> words.
+        </h1>
+
+        <p class="hero-description">
+            Not made to blend in. Curated to bring out
+            everything that makes you unmistakably you.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#collections" class="primary-btn">
+                DISCOVER DRESSIQ ↗
+            </a>
+
+            <a href="#story" class="secondary-btn">
+                OUR PHILOSOPHY →
+            </a>
+        </div>
+
+        <div class="hero-note">
+            01 ━━━━━ A NEW SEASON. A NEW YOU.
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img id="heroImage"
+        src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1100&q=85"
+        alt="Luxury fashion collection">
+
+        <div class="hero-stamp">
+            <span>THE</span>
+            <strong>IQ</strong>
+            <span>OF STYLE</span>
+        </div>
+
+        <div class="image-caption">
+            THE SIGNATURE EDIT · 2026
+        </div>
+
+    </div>
+
+    <div class="hero-controls">
+        <button id="heroPrev">←</button>
+        <span id="slideNumber">01 / 03</span>
+        <button id="heroNext">→</button>
+    </div>
+
+</section>
+
+<!-- BRAND STRIP -->
+<section class="brand-strip">
+    <span>CONSIDERED STYLE</span>
+    ✦
+    <span>EVERYDAY STATEMENTS</span>
+    ✦
+    <span>MADE TO BE YOURS</span>
+    ✦
+    <span>UNIQUE EXPRESSION</span>
+</section>
+
+<!-- COLLECTION SECTION -->
+<section class="collections section" id="collections">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">TWO SIDES. INFINITE STYLE.</p>
+            <h2>Find your <em>fashion frequency.</em></h2>
+        </div>
+
+        <p>
+            Different moods, different moments.
+            One destination for your style.
+        </p>
+    </div>
+
+    <div class="collection-grid">
+
+        <!-- WOMEN -->
+        <a href="collections.html?category=women"
+           class="collection-card">
+
+            <img
+            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85"
+            alt="Women's fashion">
+
+            <div class="collection-overlay">
+                <p>THE FEMININE EDIT</p>
+                <h3>For Her ↗</h3>
+                <span>EXPLORE WOMEN</span>
+            </div>
+
+        </a>
+
+        <!-- MEN -->
+        <a href="collections.html?category=men"
+           class="collection-card">
+
+            <img
+            src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1000&q=85"
+            alt="Men's fashion">
+
+            <div class="collection-overlay">
+                <p>THE MODERN EDIT</p>
+                <h3>For Him ↗</h3>
+                <span>EXPLORE MEN</span>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- EDITORIAL SECTION -->
+<section class="editorial" id="story">
+
+    <div class="editorial-image">
+        <img
+        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85"
+        alt="Fashion editorial">
+    </div>
+
+    <div class="editorial-content">
+
+        <p class="eyebrow">MORE THAN WHAT YOU WEAR</p>
+
+        <h2>
+            Make room<br>
+            for your <em>kind</em><br>
+            of beautiful.
+        </h2>
+
+        <p>
+            We see fashion as a feeling, not a formula.
+            A little classic, a little unexpected,
+            and always entirely your own.
+        </p>
+
+        <a href="#edit" class="underlined-link">
+            DISCOVER YOUR STYLE ↗
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured section" id="edit">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">A FEW VERY GOOD IDEAS</p>
+            <h2>The <em>current</em> edit.</h2>
+        </div>
+
+        <a href="collections.html" class="underlined-link">
+            VIEW ALL PIECES ↗
+        </a>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=85"
+                alt="Elegant dress">
+                <span>NEW ARRIVAL</span>
+            </div>
+            <h3>The Afterglow Dress</h3>
+            <p>₹4,290</p>
+            <small>WOMEN · OCCASIONWEAR</small>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=700&q=85"
+                alt="Men's suit">
+                <span>BESTSELLER</span>
+            </div>
+            <h3>The Modern Suit</h3>
+            <p>₹7,490</p>
+            <small>MEN · TAILORING</small>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=85"
+                alt="Fashion heels">
+                <span>LIMITED EDIT</span>
+            </div>
+            <h3>Golden Hour Heels</h3>
+            <p>₹3,690</p>
+            <small>ACCESSORIES · FOOTWEAR</small>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- COLOUR BANNER -->
+<section class="colour-banner">
+
+    <div class="colour-content">
+        <p class="eyebrow">A NOTE TO YOUR FUTURE SELF</p>
+
+        <h2>
+            Wear colour.<br>
+            Take <em>space.</em><br>
+            Be remembered.
+        </h2>
+
+        <a href="collections.html" class="light-btn">
+            FIND YOUR NEXT LOOK ↗
+        </a>
+    </div>
+
+    <div class="colour-circle"></div>
+
+</section>
+
+<!-- BRAND VALUES -->
+<section class="values section">
+
+    <div>
+        <span>✧</span>
+        <h3>Curated with care</h3>
+        <p>Pieces chosen for character, comfort and lasting appeal.</p>
+    </div>
+
+    <div>
+        <span>◇</span>
+        <h3>Style for everyone</h3>
+        <p>Fashion that welcomes different tastes and expressions.</p>
+    </div>
+
+    <div>
+        <span>✦</span>
+        <h3>Little details matter</h3>
+        <p>Thoughtful touches make every DressIQ moment special.</p>
+    </div>
+
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+
+    <div>
+        <p class="eyebrow">THE DRESSIQ LETTER</p>
+        <h2>Good taste. Great <em>updates.</em></h2>
+        <p>New collections, launches and exclusive first looks.</p>
+    </div>
+
+    <form id="newsletterForm">
+        <input
+        type="email"
+        id="emailInput"
+        placeholder="Enter your email address"
+        required>
+
+        <button type="submit">SUBSCRIBE ↗</button>
+    </form>
+
+    <p id="newsletterMessage"></p>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-grid">
+
+        <div>
+            <a href="#home" class="logo footer-logo">
+                Dress<span>IQ</span>
+                <small>THE ART OF BEING YOU</small>
+            </a>
+            <p>For every mood. For every moment.</p>
+        </div>
+
+        <div>
+            <h4>DISCOVER</h4>
+            <a href="#collections">Women</a>
+            <a href="#collections">Men</a>
+            <a href="#edit">New Arrivals</a>
+        </div>
+
+        <div>
+            <h4>THE HOUSE</h4>
+            <a href="#story">Our Story</a>
+            <a href="contact.html">Contact</a>
+            <a href="#home">Back to top ↑</a>
+        </div>
+
+        <div>
+            <h4>FOLLOW US</h4>
+            <p>Instagram · Pinterest · Facebook</p>
+            <p>Fashion is better when it's yours.</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 DRESSIQ. ALL RIGHTS RESERVED.
+    </div>
+
+</footer>
+
+<button id="backTop" class="back-top">↑</button>
+
+<script src="home.js"></script>
+
+</body>
+</html>
